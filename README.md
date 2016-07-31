@@ -3,3 +3,5 @@
 required php modules :
 
 php5-curl , php5-apc
+
+Telegram.Me/SpyGuard
