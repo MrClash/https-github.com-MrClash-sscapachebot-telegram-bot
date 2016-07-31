@@ -1,8 +1,8 @@
 <?php
 ob_start();
-define('API_KEY','XXXX');
+define('API_KEY','YourBotToken');
 $the_admin_id = 0;
-
+//Telegram.Me/SpyGuard
 file_put_contents("count",file_get_contents("count")+1);
 
 $ad_btn='آموزش های رایگان برنامه نویسی';
@@ -1024,7 +1024,7 @@ https://telegram.me/sscapachebot
                     setCurrentMakeID($userID,makeMakeID());
                     setUserStep($userID,'2');
                 }break;
-
+//Telegram.Me/SpyGuard
                 case '2':{
                     var_dump($update->message);
                     $DB = getMakeDB(getCurrentMakeID($userID));
